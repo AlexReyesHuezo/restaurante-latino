@@ -23,13 +23,24 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#" aria-current="page">Menú<span
-                class="visually-hidden">(current)</span></a>
+            <a class="nav-link" href="home">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Eventos</a>
+            <a class="nav-link" href="#menu">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#chefs">Chefs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Opiniones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
           </li>
         </ul>
       </div>
