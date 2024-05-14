@@ -17,7 +17,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Restaurante latino</a>
+      <a class="navbar-brand fw-bolder" href="#">Restaurante latino</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,8 +55,24 @@
     <!-- place main content here -->
   </main>
 
-  <footer>
-    <!-- place footer here -->
+  <footer class="bg-dark text-light py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>
+        <p class="m-0">Restaurante latino</p>
+        <p class="m-0">Calle 123, San Salvador, El Salvador</p>
+        <p class="m-0">Teléfono: +503 456 789</p>
+        <br>
+        <p>©️ 2024 Restaurante latino, Inc | <span class="fw-mediu text-white-50">Este es un sitio web de ejemplo
+            y
+            no es
+            real</span></p>
+      </div>
+      <div>
+        <a class="text-light me-4" href="#"><i class="bi bi-twitter-x"></i></a>
+        <a class="text-light me-4" href="#"><i class="bi bi-instagram"></i></a>
+        <a class="text-light" href="#"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
   </footer>
 
   <!-- Bootstrap JavaScript Libraries -->
