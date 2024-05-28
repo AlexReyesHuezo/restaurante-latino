@@ -47,8 +47,18 @@
     </div>
   </nav>
 
-  <header>
-    <!-- place navbar here -->
+  <header class="overflow-x-hidden">
+    <section class="container-fluid p-0" id="banner">
+      <div class="row align-items-center" style="background: radial-gradient(circle at 50% 0%,#F8D5C6, #2E537C)">
+        <div class="col-md-4 text-center text-md-start p-4 text-break">
+            <h1 class="display-3 fw-bolder" style="overflow-wrap: break-word; hyphens: auto;">Restaurante latino</h1>
+          <p class="lead text-break fw-bold">El mejor lugar para disfrutar de la comida latinoamericana en San Salvador, El Salvador.</p>
+        </div>
+        <div class="col-md-8">
+          <img src="./image/banner.jpg" class="img-fluid" alt="Restaurante latino" />
+        </div>
+      </div>
+    </section>
   </header>
 
   <main>
@@ -57,7 +67,7 @@
 
   <footer class="bg-dark text-light py-3">
     <div class="container d-flex justify-content-between align-items-center">
-      <div>
+      <div class="p-2 me-4">
         <p class="m-0">Restaurante latino</p>
         <p class="m-0">Calle 123, San Salvador, El Salvador</p>
         <p class="m-0">Teléfono: +503 456 789</p>
@@ -67,7 +77,7 @@
             no es
             real</span></p>
       </div>
-      <div>
+      <div class="d-sm-d-flex justify-content-center align-items-center">
         <a class="text-light me-4" href="#"><i class="bi bi-twitter-x"></i></a>
         <a class="text-light me-4" href="#"><i class="bi bi-instagram"></i></a>
         <a class="text-light" href="#"><i class="bi bi-youtube"></i></a>
