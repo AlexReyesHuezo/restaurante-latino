@@ -55,14 +55,107 @@
           <p class="lead text-break fw-bold">El mejor lugar para disfrutar de la comida latinoamericana en San Salvador, El Salvador.</p>
         </div>
         <div class="col-md-8">
-          <img src="./image/banner.jpg" class="img-fluid" alt="Restaurante latino" />
+          <img
+            src="./image/banner.jpg"
+            class="img-fluid"
+            alt="Restaurante latino" />
         </div>
       </div>
     </section>
   </header>
 
-  <main>
-    <!-- place main content here -->
+  <main class="">
+
+    <section id="chefs" class="container-fluid py-4 bg-dark text-white">
+      <h2 class="text-center fw-bolder">Nuestros Chefs</h2>
+      <div class="row justify-content-center m-auto p-2">
+
+        <div class="col-lg-4 col-md-10 col-sm-12 sm-mt-2 mb-4">
+          <div class="card border-dark bg-primary-subtle h-100">
+            <img src="./image/chefs/chef-antonio.jpg" class="card-img-top" alt="Chef 1" />
+            <div class="card-body">
+              <h5 class="card-title">Chef Antonio</h5>
+              <p class="card-text">
+                Antonio se especializa en condimentos y especias. Posee vasta experiencia en la cocina andina y amazonica. En Restaurante latino, es el encargado de preparar los platos y de seleccionar de los ingredientes. En su tiempo libre, le gusta compartir sus conocimientos con otros chefs.
+              </p>
+              <p>
+              <span class="align-middle">Siguelo como <span class="fst-italic">@chefantonio</span></span>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-facebook text-primary"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-instagram text-warning-emphasis"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-pinterest text-danger"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-10 col-sm-12 mb-4">
+          <div class="card border-dark bg-primary-subtle h-100">
+            <img src="./image/chefs/chef-rocio.jpg" class="card-img-top" alt="Chef 2" />
+            <div class="card-body">
+              <h5 class="card-title
+                ">Chef Rocío</h5>
+              <p class="card-text">
+              Rocio es experta en cocina latinoamericana. En Restaurante latino, es la encargada de crear los menús y supervisar la preparación de los platos. En su tiempo libre, le gusta viajar y descubrir nuevas recetas de cocina.
+              </p>
+              <p>
+              <span class="align-middle">Siguela como <span class="fst-italic">@chefrocioo</span></span>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-facebook text-primary"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-instagram text-warning-emphasis"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-pinterest text-danger"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-10 col-sm-12 mb-4">
+          <div class="card border-dark bg-primary-subtle h-100">
+            <img src="./image/chefs/chef-hugo.jpg" class="card-img-top" alt="Chef 3" />
+            <div class="card-body">
+              <h5 class="card-title
+                ">Chef Hugo</h5>
+              <p class="card-text">
+                Hugo se especializa en cocina caribeña y centroamericana. En Restaurante latino, Hugo es el encargado de preparar los aderezos, salsas, bebidas y guarniciones. En su tiempo libre, le gusta practicar deportes y leer libros de cocina.
+              </p>
+              <p>
+              <span class="align-middle">Siguelo como <span class="fst-italic">@chefjiugo</span></span>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-facebook text-primary"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-instagram text-warning-emphasis"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-pinterest text-danger"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
   <footer class="bg-dark text-light py-3">
