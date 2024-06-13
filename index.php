@@ -48,7 +48,7 @@
   </nav>
 
   <header class="overflow-x-hidden">
-    <section class="container-fluid p-0" id="banner">
+    <section class="container-fluid" id="banner">
       <div class="row align-items-center" style="background: radial-gradient(circle at 50% 0%,#F8D5C6, #2E537C)">
         <div class="col-md-4 text-center text-md-start p-4 text-break">
             <h1 class="display-3 fw-bolder" style="overflow-wrap: break-word; hyphens: auto;">Restaurante latino</h1>
@@ -66,7 +66,7 @@
 
   <main class="">
 
-    <section id="chefs" class="container-fluid py-4 bg-dark text-white">
+    <section id="chefs" class="container-fluid pt-5 bg-dark text-white">
       <h2 class="text-center fw-bolder">Nuestros Chefs</h2>
       <div class="row justify-content-center m-auto p-2">
 
@@ -154,6 +154,81 @@
         </div>
 
       </div>
+    </section>
+
+    <section class="pt-3 pb-4 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center fw-bolder mb-5">Lo que dicen nuestros clientes</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"La comida es simplemente increíble. ¡El mejor restaurante en el que he comido en años!"</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- Juan Pérez</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Servicio excepcional y ambiente encantador. ¡Volveré seguro!"</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- María García</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Una experiencia culinaria única. Cada plato es una obra de arte."</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- Carlos López</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Los mejores ingredientes y sabores auténticos. Me encanta este lugar."</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- Ana Torres</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Recomiendo este restaurante a todos mis amigos y familiares. ¡Es espectacular!"</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- Luis Fernández</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Una joya escondida en la ciudad. No puedo esperar para volver."</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- Carmen Rodríguez</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
   </main>
