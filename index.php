@@ -17,7 +17,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand fw-bolder" href="#">Restaurante latino</a>
+      <a class="navbar-brand fw-bolder" href="#"><i class="bi bi-shop fs-2 me-4"></i></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,21 +48,189 @@
   </nav>
 
   <header class="overflow-x-hidden">
-    <section class="container-fluid p-0" id="banner">
+    <section class="container-fluid" id="banner">
       <div class="row align-items-center" style="background: radial-gradient(circle at 50% 0%,#F8D5C6, #2E537C)">
         <div class="col-md-4 text-center text-md-start p-4 text-break">
             <h1 class="display-3 fw-bolder" style="overflow-wrap: break-word; hyphens: auto;">Restaurante latino</h1>
           <p class="lead text-break fw-bold">El mejor lugar para disfrutar de la comida latinoamericana en San Salvador, El Salvador.</p>
         </div>
         <div class="col-md-8">
-          <img src="./image/banner.jpg" class="img-fluid" alt="Restaurante latino" />
+          <img
+            src="./image/banner.jpg"
+            class="img-fluid"
+            alt="Restaurante latino" />
         </div>
       </div>
     </section>
   </header>
 
-  <main>
-    <!-- place main content here -->
+  <main class="">
+
+    <section id="chefs" class="container-fluid pt-5 bg-dark text-white">
+      <h2 class="text-center fw-bolder">Nuestros Chefs</h2>
+      <div class="row justify-content-center m-auto p-2">
+
+        <div class="col-lg-4 col-md-10 col-sm-12 sm-mt-2 mb-4">
+          <div class="card border-dark bg-primary-subtle h-100">
+            <img src="./image/chefs/chef-antonio.jpg" class="card-img-top" alt="Chef 1" />
+            <div class="card-body">
+              <h5 class="card-title">Chef Antonio</h5>
+              <p class="card-text">
+                Antonio se especializa en condimentos y especias. Posee vasta experiencia en la cocina andina y amazonica. En Restaurante latino, es el encargado de preparar los platos y de seleccionar de los ingredientes. En su tiempo libre, le gusta compartir sus conocimientos con otros chefs.
+              </p>
+              <p>
+              <span class="align-middle">Siguelo como <span class="fst-italic">@chefantonio</span></span>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-facebook text-primary"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-instagram text-warning-emphasis"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-pinterest text-danger"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-10 col-sm-12 mb-4">
+          <div class="card border-dark bg-primary-subtle h-100">
+            <img src="./image/chefs/chef-rocio.jpg" class="card-img-top" alt="Chef 2" />
+            <div class="card-body">
+              <h5 class="card-title
+                ">Chef Rocío</h5>
+              <p class="card-text">
+              Rocio es experta en cocina latinoamericana. En Restaurante latino, es la encargada de crear los menús y supervisar la preparación de los platos. En su tiempo libre, le gusta viajar y descubrir nuevas recetas de cocina.
+              </p>
+              <p>
+              <span class="align-middle">Siguela como <span class="fst-italic">@chefrocioo</span></span>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-facebook text-primary"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-instagram text-warning-emphasis"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-pinterest text-danger"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-10 col-sm-12 mb-4">
+          <div class="card border-dark bg-primary-subtle h-100">
+            <img src="./image/chefs/chef-hugo.jpg" class="card-img-top" alt="Chef 3" />
+            <div class="card-body">
+              <h5 class="card-title
+                ">Chef Hugo</h5>
+              <p class="card-text">
+                Hugo se especializa en cocina caribeña y centroamericana. En Restaurante latino, Hugo es el encargado de preparar los aderezos, salsas, bebidas y guarniciones. En su tiempo libre, le gusta practicar deportes y leer libros de cocina.
+              </p>
+              <p>
+              <span class="align-middle">Siguelo como <span class="fst-italic">@chefjiugo</span></span>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-facebook text-primary"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-instagram text-warning-emphasis"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-pinterest text-danger"></i>
+                <span class="visually-hidden">Button</span>
+              </button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="pt-3 pb-4 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center fw-bolder mb-5">Lo que dicen nuestros clientes</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"La comida es simplemente increíble. ¡El mejor restaurante en el que he comido en años!"</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- Juan Pérez</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Servicio excepcional y ambiente encantador. ¡Volveré seguro!"</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- María García</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Una experiencia culinaria única. Cada plato es una obra de arte."</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- Carlos López</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Los mejores ingredientes y sabores auténticos. Me encanta este lugar."</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- Ana Torres</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Recomiendo este restaurante a todos mis amigos y familiares. ¡Es espectacular!"</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- Luis Fernández</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-primary-subtle h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Una joya escondida en la ciudad. No puedo esperar para volver."</p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <small class="text-muted">- Carmen Rodríguez</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
   </main>
 
   <footer class="bg-dark text-light py-3">
